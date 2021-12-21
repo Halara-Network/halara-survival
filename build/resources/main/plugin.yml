@@ -1,0 +1,19 @@
+main: me.coopersully.Survival.HalaraSurvivalPlugin
+name: Halara-Survival
+version: 1.0
+author: Curse
+description: Adds commands and mechanics for Halara Network's survival server.
+api-version: 1.18
+prefix: Halara
+depend: [Vault, Halara-Core]
+
+commands:
+  token:
+    description: All about tokens; the super-command for info, buying, and selling.
+    aliases: [tokens]
+  withdraw:
+    description: Converts the specified amount of currency credit into tokens.
+    aliases: [buytoken, buytokens]
+  deposit:
+    description: Converts all available tokens in the player's inventory into currency credit.
+    aliases: [selltoken, selltokens]
